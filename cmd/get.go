@@ -8,7 +8,7 @@ import (
 )
 
 var getCMD = &cobra.Command{
-	Use:   "version",
+	Use:   "get",
 	Short: "Get row or cell contents",
 	Long: `Get row or cell contents; pass table name, row, and optionally
 	a dictionary of column(s), timestamp, timerange and versions. Examples:
